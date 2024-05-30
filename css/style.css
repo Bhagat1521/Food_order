@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.carousel-inner img {
+    height: 85vh;
+}
+
+
+
+.galleryimg {
+    
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.reviewimg{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.itemname{
+    color: rgba(41, 40, 40, 0.821);
+}
