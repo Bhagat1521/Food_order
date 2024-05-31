@@ -302,29 +302,29 @@
                     <form action="userinfo.php" method="post">
                         <div class="form-group ">
                             <label for="name">Name</label>
-                            <input type="text" name="username" autocomplete="off" class="form-control">
+                            <input type="text" name="username" id="username" autocomplete="off" class="form-control" required>
                         </div>
                         <div class="form-group my-3">
                             <label for="email">Email</label>
-                            <input type="text" name="email" autocomplete="off" class="form-control">
+                            <input type="text" name="email" id="email" autocomplete="off" class="form-control" required>
                         </div>
                         <div class="form-group my-3">
                             <label for="phone">Mob no.</label>
-                            <input type="text" name="mobile" autocomplete="off" class="form-control">
+                            <input type="text" name="mobile" id="mobile" autocomplete="off" class="form-control" required>
                         </div>
                         <div class="form-group my-3">
                             <label for="Your order">Your Order</label>
-                            <input type="text" name="orderItem" autocomplete="off" class="form-control">
+                            <input type="text" name="orderItem" id="orderItem" autocomplete="off" class="form-control" required>
                         </div>
                         <div class="form-group my-3">
                             <label for="quantity">quantity</label>
-                            <input type="text" name="quantity" autocomplete="off" class="form-control">
+                            <input type="text" name="quantity" id="quantity" autocomplete="off" class="form-control" required>
                         </div>
                         <div class="form-group my-3">
                             <label for="address">Address</label>
-                            <textarea name="address" class="form-control"></textarea>
+                            <textarea name="address" class="form-control" id="address" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-outline-primary my-3" onclick="showalert()">Submit</button>
+                        <button type="submit" class="btn btn-outline-primary my-3" onclick="printInputValue()">Submit</button>
                     </form>
                 </div>
             </div>
@@ -332,11 +332,13 @@
     </section>
 
 
-    <script>
-    function showalert(){
-        alert("Success! Your order placed successfully.")
-    }
-    </script>
+
+
+
+
+    <script src="JS/Script.js"></script>
+ 
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
