@@ -8,6 +8,15 @@
     font-style: normal;
 }
 
+#preloader{
+    background: white url("spinner.gif") no-repeat center;
+    background-size: 5%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 .carousel-inner img {
     height: 85vh;
 }
